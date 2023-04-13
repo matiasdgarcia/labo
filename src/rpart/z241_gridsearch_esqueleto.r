@@ -27,9 +27,10 @@ particionar <- function(data, division, agrupa = "", campo = "fold", start = 1, 
 }
 #------------------------------------------------------------------------------
 
-ArbolEstimarGanancia <- function(semilla, param_basicos) {
-  # particiono estratificadamente el dataset
-  particionar(dataset, division = c(7, 3), agrupa = "clase_ternaria", seed = semilla) # Cambiar por la primer semilla de cada uno !
+ArbolEstimarGanancia  <- function( semilla, param_basicos )
+{
+  #particiono estratificadamente el dataset
+  particionar( dataset, division=c(7,3), agrupa="clase_ternaria", seed= semilla )  #Cambiar por la primer semilla de cada uno !
 
   # genero el modelo
   modelo <- rpart("clase_ternaria ~ .", # quiero predecir clase_ternaria a partir del resto
