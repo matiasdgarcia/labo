@@ -111,8 +111,8 @@ cat(
 
 # itero por los loops anidados para cada hiperparametro
 
-for (vmax_depth in c(4, 6, 8, 10, 12, 14)){
-  for (vmin_split in c(1000, 800, 600, 400, 200, 100, 50, 20, 10)){
+for (vmax_depth in c(4, 6, 8, 10, 12, 14)) {
+  for (vmin_split in c(1000, 800, 600, 400, 200, 100, 50, 20, 10)) {
     # notar como se agrega
     min_bucket <- 5
     cp <- -1
