@@ -209,3 +209,4 @@ if (!file.exists(archivo_BO)) {
 } else {
   run <- mboContinue(archivo_BO)
 } # retomo en caso que ya exista
+
