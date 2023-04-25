@@ -46,7 +46,7 @@ PARAM$hyperparametertuning$xval_folds  <- 5
 PARAM$hyperparametertuning$POS_ganancia  <- 117000
 PARAM$hyperparametertuning$NEG_ganancia  <-  -3000
 
-PARAM$hyperparametertuning$semilla_azar  <- 200177  #Aqui poner su segunda semilla
+PARAM$hyperparametertuning$semilla_azar  <- 776977  #Aqui poner su segunda semilla
 
 #------------------------------------------------------------------------------
 
