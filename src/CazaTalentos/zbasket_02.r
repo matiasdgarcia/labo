@@ -24,6 +24,7 @@ jugadores
 #hago que los 100 jugadores tiren 10 veces cada uno
 mapply( ftirar, jugadores, 10 )
 
+
 primero_ganador  <- 0
 
 for( i in 1:10000 ){  #diez mil experimentos
