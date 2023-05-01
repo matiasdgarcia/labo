@@ -14,7 +14,7 @@ require("ranger")
 require("randomForest")  #solo se usa para imputar nulos
 
 #Aqui se debe poner la carpeta de la computadora local
-setwd("X:\\gdrive\\austral2023v\\")  #Establezco el Working Directory
+setwd("D:\\AustralLabo23\\")  #Establezco el Working Directory
 
 #cargo los datos donde entreno
 dataset  <- fread("./datasets/dataset_pequeno.csv", stringsAsFactors= TRUE)
@@ -35,7 +35,7 @@ param  <- list( "num.trees"=       300,  #cantidad de arboles
                 "max.depth"=        12   # 0 significa profundidad infinita
               )
 
-set.seed(102191) #Establezco la semilla aleatoria
+set.seed(675029) #Establezco la semilla aleatoria
 
 setorder( dtrain, clase_ternaria )  #primero quedan los BAJA+1, BAJA+2, CONTINUA
 
