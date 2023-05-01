@@ -84,7 +84,7 @@ dfinal[ , prob_SI := prediccion[ , "SI"] ]
 
 # por favor cambiar por una semilla propia
 # que sino el Fiscal General va a impugnar la prediccion
-set.seed(102191)  
+set.seed(675029)  
 dfinal[ , azar := runif( nrow(dapply) ) ]
 
 # ordeno en forma descentente, y cuando coincide la probabilidad, al azar
