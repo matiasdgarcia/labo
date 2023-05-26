@@ -24,7 +24,7 @@ PARAM$experimento  <- "ZZ7991b"
 PARAM$exp_input  <- "HT7511"
 
 #Atencion, que cada modelos se procesa con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 14 )  # buen modelo con bajo número de iteraciones: 82 iteracions Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
+PARAM$modelos_rank  <- c( 53 )  # buen modelo con bajo número de iteraciones: 82 iteracions Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
 PARAM$semillerio  <- 50   # cantidad de semillas a utilizar en el semillerio, podrian ser 50 o 100 para mayor estabilidad
 PARAM$semilla_primos  <- 675029  # se utiliza para generar el vector de  PARAM$semillerio  semillas
 
